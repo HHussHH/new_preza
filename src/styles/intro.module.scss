@@ -1,0 +1,71 @@
+.intro {
+  overflow: hidden;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  padding-top: 20px;
+  font-size: 60px;
+  margin-bottom: 100px;
+}
+
+.banks {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bank {
+  position: relative;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  padding: 0 200px;
+  p {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+  margin-bottom: 200px;
+}
+
+.icons {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+
+  &:nth-child(1) {
+    top: 20%;
+    left: 10%;
+    transform: rotateZ(-50deg);
+  }
+  &:nth-child(2) {
+    top: 20%;
+    right: 20%;
+  }
+  &:nth-child(3) {
+    top: 50%;
+    left: 25%;
+    transform: rotateZ(-50deg);
+  }
+}
+
+.icons_2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+
+  &:nth-child(1) {
+    top: 30%;
+    left: 20%;
+  }
+  &:nth-child(2) {
+    top: 30%;
+    right: 15%;
+  }
+  &:nth-child(3) {
+    top: 50%;
+    right: 25%;
+  }
+}
